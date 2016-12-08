@@ -100,11 +100,15 @@ button.negative {
 .question article .headline {
     display: inline-block;
     color: #65497f;
+    margin-right: 20px;
 }
 
 .question article .close {
     text-decoration: none;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 10px;
 }
 
 .question article footer {

@@ -41,7 +41,7 @@
       $('article', $questions).removeClass('show');
     });
 
-    $('html, body, .content').on('click', function(event) {
+    $('html, body, .content, .question, .question .headline').on('click', function(event) {
       if (event.target !== this) {
         return;
       }
