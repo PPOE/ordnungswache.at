@@ -28,6 +28,15 @@ html, body, .content {
     padding: 0;
 }
 
+.bg-image {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-22%) translateY(-124%) rotateZ(11deg);
+    opacity: 0.9;
+}
+
 .content > header {
     text-align: right;
     padding: 1em 2em;
@@ -232,6 +241,7 @@ button.negative {
 
     .question {
         position: relative;
+        margin-top: 150px;
         transform: rotate(1deg);
     }
 
@@ -247,6 +257,15 @@ button.negative {
 
     .content > footer div {
         text-align: center !important;
+    }
+
+    .bg-image {
+        width: 50%;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-22%) translateY(-16%) rotateZ(11deg);
+        opacity: 0.9;
     }
 }
 
